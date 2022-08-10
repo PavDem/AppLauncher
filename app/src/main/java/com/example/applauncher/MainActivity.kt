@@ -19,75 +19,115 @@ class MainActivity : AppCompatActivity() {
             return arrayListOf(
                 App(
                     0,
-                    R.drawable.baseline_assignment_returned_black_24dp,
+                    R.drawable.opera_icon,
                     "Apple",
                     R.drawable.baseline_assignment_returned_black_24dp
-                ), App(
+                ),
+                App(
                     1,
-                    R.drawable.baseline_assignment_returned_black_24dp,
+                    R.drawable.opera_icon,
                     "Banana",
                     R.drawable.baseline_assignment_returned_black_24dp,
                 ),
                 App(
                     2,
-                    R.drawable.baseline_assignment_returned_black_24dp,
+                    R.drawable.opera_icon,
                     "Lemon",
                     R.drawable.baseline_assignment_returned_black_24dp
                 ),
                 App(
                     3,
-                    R.drawable.baseline_assignment_returned_black_24dp,
+                    R.drawable.opera_icon,
                     "Pear",
                     R.drawable.baseline_assignment_returned_black_24dp
                 ),
                 App(
                     4,
-                    R.drawable.baseline_assignment_returned_black_24dp,
+                    R.drawable.opera_icon,
                     "Strawberry",
                     R.drawable.baseline_assignment_returned_black_24dp
                 ),
                 App(
                     5,
-                    R.drawable.baseline_assignment_returned_black_24dp,
+                    R.drawable.opera_icon,
                     "Pear",
                     R.drawable.baseline_assignment_returned_black_24dp
                 ),
                 App(
                     6,
-                    R.drawable.baseline_assignment_returned_black_24dp,
+                    R.drawable.opera_icon,
                     "Pear",
                     R.drawable.baseline_assignment_returned_black_24dp
                 ),
                 App(
                     7,
-                    R.drawable.baseline_assignment_returned_black_24dp,
+                    R.drawable.opera_icon,
                     "Pear",
                     R.drawable.baseline_assignment_returned_black_24dp
                 ),
                 App(
                     8,
-                    R.drawable.baseline_assignment_returned_black_24dp,
+                    R.drawable.opera_icon,
                     "Orange",
                     R.drawable.baseline_assignment_returned_black_24dp
-                ), App(
+                ),
+                App(
                     9,
-                    R.drawable.baseline_assignment_returned_black_24dp,
+                    R.drawable.opera_icon,
                     "Orange",
                     R.drawable.baseline_assignment_returned_black_24dp
                 ),
                 App(
                     10,
-                    R.drawable.baseline_assignment_returned_black_24dp,
+                    R.drawable.opera_icon,
                     "Orange",
                     R.drawable.baseline_assignment_returned_black_24dp
-                ), App(
-                    11,
-                    R.drawable.baseline_assignment_returned_black_24dp,
+                ),
+                App(
+                    12,
+                    R.drawable.opera_icon,
+                    "Orange",
+                    R.drawable.baseline_assignment_returned_black_24dp
+                ),
+                App(
+                    13,
+                    R.drawable.opera_icon,
+                    "Orange",
+                    R.drawable.baseline_assignment_returned_black_24dp
+                ),
+                App(
+                    14,
+                    R.drawable.opera_icon,
+                    "Orange",
+                    R.drawable.baseline_assignment_returned_black_24dp
+                ),
+                App(
+                    15,
+                    R.drawable.opera_icon,
+                    "Orange",
+                    R.drawable.baseline_assignment_returned_black_24dp
+                ),
+                App(
+                    16,
+                    R.drawable.opera_icon,
+                    "Orange",
+                    R.drawable.baseline_assignment_returned_black_24dp
+                ),
+                App(
+                    17,
+                    R.drawable.opera_icon,
+                    "Orange",
+                    R.drawable.baseline_assignment_returned_black_24dp
+                ),
+                App(
+                    18,
+                    R.drawable.opera_icon,
                     "Orange",
                     R.drawable.baseline_assignment_returned_black_24dp
                 )
             )
         }
+
 
         adapter.items = getItems()
         recyclerView.adapter = adapter

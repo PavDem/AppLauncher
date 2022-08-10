@@ -17,7 +17,7 @@ class MyItemDecoration(private val context: Context): RecyclerView.ItemDecoratio
 
     override fun onDraw(c: Canvas, parent: RecyclerView, state: RecyclerView.State) {
         super.onDraw(c, parent, state)
-        parent.children.forEach {
+        /*parent.children.forEach {
             val offset = it.top / 3
             fon.let { btm ->
                 c.drawBitmap(
@@ -27,11 +27,11 @@ class MyItemDecoration(private val context: Context): RecyclerView.ItemDecoratio
                     null
                 )
             }
-        }
+        }*/
 
     }
 
     override fun getItemOffsets(outRect: Rect, itemPosition: Int, parent: RecyclerView) {
-        outRect.set(15,25,15,25)
+        //outRect.set(0   ,0,0,0)
     }
 }
