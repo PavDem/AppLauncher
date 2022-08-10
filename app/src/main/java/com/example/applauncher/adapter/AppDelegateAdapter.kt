@@ -15,9 +15,9 @@ import com.hannesdorfmann.adapterdelegates4.AbsListItemAdapterDelegate
 class AppDelegateAdapter:
     AbsListItemAdapterDelegate<App, Item, AppDelegateAdapter.ViewHolder>() {
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val icon = itemView.findViewById<ImageView>(R.id.icon)
-        val textName = itemView.findViewById<TextView>(R.id.text_name)
-        val textDesc = itemView.findViewById<TextView>(R.id.text_desc)
+        val iconMain = itemView.findViewById<ImageView>(R.id.icon_main)
+        val textName = itemView.findViewById<TextView>(R.id.title)
+        val iconSecond = itemView.findViewById<ImageView>(R.id.icon_second)
     }
 
     override fun isForViewType(item: Item, items: MutableList<Item>, position: Int): Boolean {
@@ -29,8 +29,8 @@ class AppDelegateAdapter:
     }
 
     override fun onBindViewHolder(item: App, holder: ViewHolder, payloads: MutableList<Any>) {
-        holder.icon.setImageResource(item.idIcon)
+        holder.iconMain.setImageResource(item.idIconMain)
         holder.textName.text = item.name
-        holder.textDesc.text = item.desc
+        holder.iconSecond.setImageResource(item.idIconSecond)
     }
 }

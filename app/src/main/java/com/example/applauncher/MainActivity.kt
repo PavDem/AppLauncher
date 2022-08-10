@@ -21,70 +21,70 @@ class MainActivity : AppCompatActivity() {
                     0,
                     R.drawable.baseline_assignment_returned_black_24dp,
                     "Apple",
-                    "Juicy Apple fruit, which is eaten fresh, serves as a raw material in cooking and for making drinks."
+                    R.drawable.baseline_assignment_returned_black_24dp
                 ), App(
                     1,
                     R.drawable.baseline_assignment_returned_black_24dp,
                     "Banana",
-                    "It is one of the oldest food crops, and for tropical countries it is the most important food plant and the main export item."
+                    R.drawable.baseline_assignment_returned_black_24dp,
                 ),
                 App(
                     2,
                     R.drawable.baseline_assignment_returned_black_24dp,
                     "Lemon",
-                    "Lemons are eaten fresh, and are also used in the manufacture of confectionery and soft drinks, in the liquor and perfume industry."
+                    R.drawable.baseline_assignment_returned_black_24dp
                 ),
                 App(
                     3,
                     R.drawable.baseline_assignment_returned_black_24dp,
                     "Pear",
-                    "Under favorable conditions, the pear reaches a large size-up to 5-25 meters in height and 5 meters in diameter of the crown."
+                    R.drawable.baseline_assignment_returned_black_24dp
                 ),
                 App(
                     4,
                     R.drawable.baseline_assignment_returned_black_24dp,
                     "Strawberry",
-                    "A perennial herbaceous plant 5-20 cm high, with a thick brown rhizome. \"Mustache\" is short. The stem is thin."
+                    R.drawable.baseline_assignment_returned_black_24dp
                 ),
                 App(
                     5,
                     R.drawable.baseline_assignment_returned_black_24dp,
                     "Pear",
-                    "Under favorable conditions, the pear reaches a large size-up to 5-25 meters in height and 5 meters in diameter of the crown."
+                    R.drawable.baseline_assignment_returned_black_24dp
                 ),
                 App(
                     6,
                     R.drawable.baseline_assignment_returned_black_24dp,
                     "Pear",
-                    "Under favorable conditions, the pear reaches a large size-up to 5-25 meters in height and 5 meters in diameter of the crown."
+                    R.drawable.baseline_assignment_returned_black_24dp
                 ),
                 App(
                     7,
                     R.drawable.baseline_assignment_returned_black_24dp,
                     "Pear",
-                    "Under favorable conditions, the pear reaches a large size-up to 5-25 meters in height and 5 meters in diameter of the crown."
+                    R.drawable.baseline_assignment_returned_black_24dp
                 ),
                 App(
                     8,
                     R.drawable.baseline_assignment_returned_black_24dp,
                     "Orange",
-                    "Orange juice is widely used as a drink in restaurants and cafes."
+                    R.drawable.baseline_assignment_returned_black_24dp
                 ), App(
                     9,
                     R.drawable.baseline_assignment_returned_black_24dp,
                     "Orange",
-                    "Orange juice is widely used as a drink in restaurants and cafes."
+                    R.drawable.baseline_assignment_returned_black_24dp
                 ),
                 App(
                     10,
                     R.drawable.baseline_assignment_returned_black_24dp,
                     "Orange",
-                    "Orange juice is widely used as a drink in restaurants and cafes."
+                    R.drawable.baseline_assignment_returned_black_24dp
                 ), App(
                     11,
                     R.drawable.baseline_assignment_returned_black_24dp,
                     "Orange",
-                    "Orange juice is widely used as a drink in restaurants and cafes."
+                    R.drawable.baseline_assignment_returned_black_24dp
                 )
             )
         }
