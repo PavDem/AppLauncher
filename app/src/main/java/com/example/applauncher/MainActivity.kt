@@ -2,9 +2,10 @@ package com.example.applauncher
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.RecyclerView
-import com.example.applauncher.adapter.AppAdapter
+import com.example.applauncher.adapter.AppListRecyclerAdapter
 import com.example.applauncher.decoration.MyItemDecoration
 import com.example.applauncher.model.Item
 
@@ -14,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val recyclerView: RecyclerView = findViewById<RecyclerView>(R.id.recycler_view)
-        val adapter = AppAdapter()
+        val adapter = AppListRecyclerAdapter()
         fun getItems(): ArrayList<Item> {
             return arrayListOf(
                 App(
@@ -128,8 +129,7 @@ class MainActivity : AppCompatActivity() {
             )
         }
 
-
-        adapter.items = getItems()
+        adapter.b = getItems()
         recyclerView.adapter = adapter
 
         val dividerItemDecoration = DividerItemDecoration(this, DividerItemDecoration.VERTICAL)
